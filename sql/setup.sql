@@ -9,10 +9,10 @@ Create table cats (
     url VARCHAR NOT NULL,
     year BIGINT NOT NULL,
     lives BIGINT NOT NULL,
-    isSidekick BOOLEAN
+    is_sidekick BOOLEAN
 );
 
-INSERT INTO cats (name, type, url, year, lives, isSidekick) VALUES
+INSERT INTO cats (name, type, url, year, lives, is_sidekick) VALUES
 (
     'Felix',
     'Tuxedo',
